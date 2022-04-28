@@ -26,7 +26,7 @@ export default function SignUpForm() {
 
   const handleChange = (event) => {
     const { name, value } = event.target;
-    setFormFields((prevState) => ({ ...prevState, [name]: value }));
+    setFormFields({ ...formFields, [name]: value });
   };
 
   const handleSubmit = async (event) => {
@@ -57,7 +57,8 @@ export default function SignUpForm() {
 
   return (
     <div className="sign-up">
-      <h2>Don't have an account?</h2>
+      <h2>I don't have an account</h2>
+      <span>Sign up with your email and password</span>
       <form onSubmit={handleSubmit}>
         <FormInput
           type="text"
@@ -95,7 +96,7 @@ export default function SignUpForm() {
           required
         />
 
-        <Button type="submit">Sign up</Button>
+        <Button type="submit">sign up</Button>
       </form>
     </div>
   );
