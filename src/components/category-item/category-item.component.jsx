@@ -1,4 +1,4 @@
-import './category-item.scss';
+import './category-item.styles.scss';
 
 export default function CategoryItem({ category: { imageUrl, title } }) {
   console.log(imageUrl);
