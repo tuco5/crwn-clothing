@@ -6,10 +6,10 @@ import {
 
 import { useState } from 'react';
 
-import FormInput from '../form-input/form-input';
-import Button from '../button/button';
+import FormInput from '../form-input/form-input.component';
+import Button from '../button/button.component';
 
-import './sign-in-form.scss';
+import './sign-in-form.styles.scss';
 
 const defaultFormState = {
   email: '',

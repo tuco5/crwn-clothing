@@ -1,8 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
 
 import Navigation from './routes/navigation/navigation';
-import Home from './routes/home/home';
-import Authentication from './routes/authentication/authentication';
+import Home from './routes/home/home.page';
+import Authentication from './routes/authentication/authentication.page';
 
 export default function App() {
   return (

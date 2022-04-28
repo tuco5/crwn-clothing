@@ -1,6 +1,6 @@
-import CategoryItem from '../category-item/category-item';
+import CategoryItem from '../category-item/category-item.component';
 
-import './directory.scss';
+import './directory.styles.scss';
 
 export default function Categories({ categories }) {
   return (
